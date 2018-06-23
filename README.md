@@ -15,3 +15,9 @@ e iFilmes para os objetos funcionário e filmes respectivamente.
 Apresentar o sistema CRUD de cadastro de funcionários e filmes pelo UML(Linguagem Moderna Unificada);
 
 Utilizar dos conceitos de encapsulamento, herança, polimorfismo, relacionamento entre classes para mostrar o cadastro por adição,remoção,procura e listagem de funcionários e filmes no cinema.
+
+## CÓDIGO
+
+O arquivo do código está na pasta _src_. Dentro da pasta existe duas outras pastas, src/model e src/viewCine. Onde _src/model_ está as classes e interfaces e a _src/viewCine_ está a classe principal _main_. 
+
+Na aba **wiki** está a explanação geral das classes, interfaces e a representação do código em UML.
