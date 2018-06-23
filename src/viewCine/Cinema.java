@@ -167,6 +167,7 @@ public class Cinema {
                             System.out.println("------------------------------------------------------------");
                             
                             switch(menuf1){
+                                    
                                 case 1:
                                     System.out.println("|¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨Cadastrar Filmes¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨|");
                                     
@@ -175,7 +176,9 @@ public class Cinema {
                                         FIL.add(filme);
                                     
                                     break;
+                                    
                                 case 2:
+                                    
                                     System.out.println("|¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨Remover Filme¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨|\n");
                                     
                                         System.out.println("\nVocê tem ["+FIL.size()+"] filmes cadastrados");
@@ -190,6 +193,7 @@ public class Cinema {
                                     break;
                                     
                                 case 3:
+                                    
                                     System.out.println("|¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨Procurar Filme¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨|\n");
                                     
                                     System.out.println("\nVocê tem ["+FIL.size()+"] filmes cadastrados");
@@ -222,12 +226,14 @@ public class Cinema {
                                     break;
                                     
                                 case 6:
+                                    
                                     System.out.println("\n¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨|ADM e Filme¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨|\n");
                                     
-                                        verAdmFilme();
+                                    verAdmFilme();
                                     
                                     break;
                                 case 7:
+                                    
                                     mf = 5;
                                     break;
                             }
@@ -236,6 +242,7 @@ public class Cinema {
                     }
                     break;
                 case 3: 
+                    
                     z=5;
                     break;
             }
@@ -246,8 +253,11 @@ public class Cinema {
 //Métodos do CRUD Funcionários
     
 public static double salarioMenu( int s ){
+    
     double salario = 0;
+    
     switch(s){
+            
         case 1:
             salario = 1000;
             break;
@@ -262,10 +272,13 @@ public static double salarioMenu( int s ){
 }
 
 public static String setorLocalTurnoFunMenu ( String opcao, int valor ){
+    
     String set = "null";
     String tur = "null";
     String loc = "null";
+    
     if(opcao.equals("setor")){
+        
             if (valor == 1) {
                 set = "Bilheteria";
             }else if(valor ==2){
@@ -274,6 +287,7 @@ public static String setorLocalTurnoFunMenu ( String opcao, int valor ){
                 set = "Filmes";
             }
             return set;
+        
     }else if(opcao.equals("turno")){
             if (valor == 1) {
                 tur = "Manhã/Tarde";
@@ -281,6 +295,7 @@ public static String setorLocalTurnoFunMenu ( String opcao, int valor ){
                 tur = "Noite";
             }
             return tur;
+        
     }else if(opcao.equals("local")){
             if (valor == 1) {
                 loc = "Bilheteria";
