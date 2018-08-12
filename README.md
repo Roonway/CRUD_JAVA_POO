@@ -18,6 +18,7 @@ Utilizar dos conceitos de encapsulamento, herança, polimorfismo, relacionamento
 
 ## CÓDIGO
 
-O arquivo do código está na pasta _src_. Dentro da pasta existe duas outras pastas, src/model e src/viewCine. Onde _src/model_ está as classes e interfaces e a _src/viewCine_ está a classe principal _main_. 
+O arquivo do código está na pasta _src_. Dentro da pasta existe duas outras pastas, src/model e src/viewCine. Onde _src/model_ está as  [classes e interfaces](https://github.com/Dheyson/CRUD_JAVA_POO/tree/master/src/model) e a _src/viewCine_ está a classe principal  [_main_](https://github.com/Dheyson/CRUD_JAVA_POO/tree/master/src/viewCine). 
 
 Na aba **wiki** está a explanação geral das classes, interfaces e a representação do código em UML.
+
